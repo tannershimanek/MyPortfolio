@@ -74,3 +74,19 @@ button {
 .dark { background-color: #26262b; }
 .dark-100 { background-color: #202225; }
 .dark-200 { background-color: #0C0F11; }
+
+
+@media(max-width: 768px) {
+    .main-menu {
+        display: none;
+    }
+    .main-menu.toggleNav {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) {
+    .ham-icon {
+        display: none;
+    }
+}
