@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto|Spartan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F9FD;
+    font-family: 'Montserrat' ;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway' ;
+    color: #0C0F11;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #7289da;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway' ;
+
+}
+
+.ul-unstyled {
+    list-style: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-banner{
+    font-size: 6rem;
+    justify-content: center;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.sub-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+button {
+    border: none;
+}
+/* colors */
+
+.primary{ background-color: #7289da; }
+.secondary{ background-color: #B2AEFF;}
+.success{ background-color: #43B581; }
+.danger{ background-color: #F04747; }
+.warning{ background-color: #E4A827; }
+.info{ background-color: #DF86F4; }
+.light{ background-color: #FFFFFF; }
+.light-100{ background-color: #A6A7A8; }
+.dark { background-color: #26262b; }
+.dark-100 { background-color: #202225; }
+.dark-200 { background-color: #0C0F11; }
