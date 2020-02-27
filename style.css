@@ -41,6 +41,10 @@ body {
 
 .alt {
     color: #F26B3F;
+    text-decoration: underline;
+}
+.alt:hover {
+    color: #F38866;
 }
 .container {
     max-width: 100%;
@@ -99,6 +103,34 @@ body {
 .section-header {
     padding-top: 0.9rem;
     padding-left: 1rem;
+}
+.section-header-large {
+    padding-top: 0.9rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+.fade-in {
+    animation: fade-in 1s 1 0s ease;
+    height: 60vh;
+}
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-card {
+    background-color: #ffffff;
+    border: 1px #323B4A sold;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ham-icon {
     font-size: 2rem;
@@ -182,3 +214,13 @@ body {
         }
 }
 
+@keyframes fade-in{
+    0%{
+        transform: rotate(0) translateY(-10px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 100;
+        }
+}
